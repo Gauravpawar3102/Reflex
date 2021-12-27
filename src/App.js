@@ -1,13 +1,13 @@
 import './App.css';
 import Row from './Row.jsx';
-import requests from './requests';
+import requests from './Requests.js';
 function App() {
   return (
     <div className="App">
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchTopRated} />
-      <Row title="Trending Now" fetchUrl={requests.fetchTopRated} />
+      <Row title="NETFLIX ORIGINALS" />
+
+      <Row title="Trending Now" />
     </div>
   );
 }
-
 export default App;
