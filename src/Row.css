@@ -2,9 +2,9 @@
   display: flex;
   overflow-x: scroll;
 }
-/* .row_poster {
+.row_poster {
   width: 100%;
   margin-right: 10px;
   object-fit: contain;
   max-height: 100px;
-} */
+}
